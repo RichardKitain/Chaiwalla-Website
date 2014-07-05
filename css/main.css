@@ -5,25 +5,18 @@
  */
 @font-face {
 	 font-family: "HelveticaNeue";
-	         src: url('./font/helvetica_neue.dfont');
+	         src: url('./font/HelveticaNeue-Light.otf');
 	font-stretch: normal;
 	 font-weight: normal;
 	  font-style: normal;
 }
 
-/**
- *  For Helvetica Neue Condensed Bold Font
- *
- *  Used for emphasized text and headings
- */
 @font-face {
-	font-family: "HelveticaNeue";
-	        src: url('./font/HelveticaNeueCondensedBold.eot');
-	        src: local('HelveticaNeueCondensedBold'), 
-		         url('./font/HelveticaNeueCondensedBold.woff') format('woff'), 
-		         url('./font/HelveticaNeueCondensedBold.ttf') format('truetype');
-	font-weight: bold;
-	 font-style: normal;
+	 font-family: "HelveticaNeue";
+	         src: url('./font/HelveticaNeue-Light.otf');
+	font-stretch: normal;
+	 font-weight: bold;
+	  font-style: normal;
 }
 
 /**
@@ -36,17 +29,34 @@
 	font-style: normal;
 }
 
-#header {
+
+
+nav {
 	background-color: rgb(255, 108, 60);
 	margin-top: 0px;
 	color: white;
+	padding: 5px;
 	font-family: HelveticaNeue; 
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav h1 {
+    padding-left: 1em;
 }
 
 #links {
-	padding-left: 900px;
+	float: right;
 	display: inline;
 	word-spacing: 20px;
+	color: rgb(255, 201, 183);
+    padding-right: 2em;
+}
+
+
+#selected {
+	color: white;
 }
 
 #aboutus {
@@ -62,15 +72,15 @@
 }
 
 #mainpicture {
-	float: left;
 	position: absolute;
 	left: 300px;
 	top: 126px;
 }
 
 #maintext {
-	padding-left: 850px;
-	padding-top: 100px;
+	width: 50%;
+	float: right;
+    margin-top: 200px;
 }
 
 #download {
@@ -82,11 +92,32 @@
 	color: rgb(255, 108, 60);
 }
 
-#footer {
-	position: absolute;
-	padding-top: 350px;
-	background-clip: content-box;
-	background-color: rgb(207, 207, 207);
+#thebeginning, #theend {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+footer {
+	background-color: rgb(232, 232, 232);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: .75em;
+    padding-bottom: .75em;
+}
+
+footer p {
+    padding-left: 2em;
+    color: rgb(160, 160, 160);
+}
+
+footer p:hover {
+    color: rgb(0, 0, 0);
+}
+
+content {
+    background-color: rgb(247, 247, 247);  
 }
 
 #pic1 {
@@ -97,12 +128,17 @@
 	-webkit-animation-fill-mode: forwards;
 }
 
+
 #pic3 {
 	padding-left: 200px;
 	-webkit-animation-delay: .5s;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-name: slideoutthree;
 	-webkit-animation-fill-mode: forwards;
+}
+
+#allpictures {
+	width: 50%;
 }
 
 /*@-webkit-keyframes slideoutmain {
@@ -121,7 +157,7 @@
 		-webkit-animation-delay: .5s;
 	}
 	to {
-		padding-left: 0px;
+		padding-left: 50px;
 	}
 }
 
@@ -131,18 +167,29 @@
       -webkit-animation-delay: .5s;
  	}
 	to {
-		padding-left: 400px;
+		padding-left: 350px;
 	}
 }
 
 h1 {
-	padding-left: 30px;
+	font-family: HelveticaNeue;
+	font-weight: bold;
+	display: inline;
 }
 
-h1, h2 {
+h2 {
 	display: inline;
+	font-family: HelveticaNeue;
+	font-weight: normal;
+}
+
+h3 {
+	font-weight: normal;
 }
 
 body {
 	margin: 0px;
+	font-family: HelveticaNeue;
+	font-weight: normal;
+    background-color: rgb(247, 247, 247);  
 }
