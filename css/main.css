@@ -1,0 +1,148 @@
+/**
+ * For The regular Helvetica Neue Font
+ *
+ * Used for most text on the page.
+ */
+@font-face {
+	 font-family: "HelveticaNeue";
+	         src: url('./font/helvetica_neue.dfont');
+	font-stretch: normal;
+	 font-weight: normal;
+	  font-style: normal;
+}
+
+/**
+ *  For Helvetica Neue Condensed Bold Font
+ *
+ *  Used for emphasized text and headings
+ */
+@font-face {
+	font-family: "HelveticaNeue";
+	        src: url('./font/HelveticaNeueCondensedBold.eot');
+	        src: local('HelveticaNeueCondensedBold'), 
+		         url('./font/HelveticaNeueCondensedBold.woff') format('woff'), 
+		         url('./font/HelveticaNeueCondensedBold.ttf') format('truetype');
+	font-weight: bold;
+	 font-style: normal;
+}
+
+/**
+ *  For Unispaced Code Fonts
+ */
+@font-face {
+	font-family: "Menlo";
+	src: url('./font/Menlo.ttc');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#header {
+	background-color: rgb(255, 108, 60);
+	margin-top: 0px;
+	color: white;
+	font-family: HelveticaNeue; 
+}
+
+#links {
+	padding-left: 900px;
+	display: inline;
+	word-spacing: 20px;
+}
+
+#aboutus {
+	word-spacing: 0px;
+	display: inline;
+}
+
+.sidepictures {
+	position: absolute;
+	top: 142.15625px;
+	z-index: -1;
+	left: 100px;
+}
+
+#mainpicture {
+	float: left;
+	position: absolute;
+	left: 300px;
+	top: 126px;
+}
+
+#maintext {
+	padding-left: 850px;
+	padding-top: 100px;
+}
+
+#download {
+	padding-left: 20px;
+	display: inline;
+}
+
+#thebeginning {
+	color: rgb(255, 108, 60);
+}
+
+#footer {
+	position: absolute;
+	padding-top: 350px;
+	background-clip: content-box;
+	background-color: rgb(207, 207, 207);
+}
+
+#pic1 {
+	padding-left: 200px;
+	-webkit-animation-delay: .5s;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-name: slideoutone;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#pic3 {
+	padding-left: 200px;
+	-webkit-animation-delay: .5s;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-name: slideoutthree;
+	-webkit-animation-fill-mode: forwards;
+}
+
+/*@-webkit-keyframes slideoutmain {
+	from {
+		padding-left: 0px;
+	}
+
+	to {
+		padding-left: 0px;
+	}
+}
+*/
+@-webkit-keyframes slideoutone {
+	from {
+		padding-left: 200px;
+		-webkit-animation-delay: .5s;
+	}
+	to {
+		padding-left: 0px;
+	}
+}
+
+@-webkit-keyframes slideoutthree {
+	from {
+      padding-left: 200px;
+      -webkit-animation-delay: .5s;
+ 	}
+	to {
+		padding-left: 400px;
+	}
+}
+
+h1 {
+	padding-left: 30px;
+}
+
+h1, h2 {
+	display: inline;
+}
+
+body {
+	margin: 0px;
+}
