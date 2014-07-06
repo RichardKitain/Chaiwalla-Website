@@ -43,16 +43,35 @@ nav {
 }
 
 nav h1 {
-    padding-left: 1em;
+	padding-left: .4em;
+}
+
+nav h2 {
+	color: rgb(255, 201, 183);
+}
+
+nav h2:hover {
+	color: white;
+}
+
+nav img {
+	height: 23.125px;
+	width: 28.125px;
+	float: left;
+	padding-left: 1em;
+}
+
+#topleft {
+
 }
 
 #links {
 	float: right;
 	display: inline;
 	word-spacing: 20px;
-	color: rgb(255, 201, 183);
     padding-right: 2em;
 }
+
 
 
 #selected {
@@ -69,18 +88,21 @@ nav h1 {
 	top: 142.15625px;
 	z-index: -1;
 	left: 100px;
+	float: left;
 }
 
 #mainpicture {
 	position: absolute;
 	left: 300px;
 	top: 126px;
+	float: left;
 }
 
 #maintext {
 	width: 50%;
 	float: right;
     margin-top: 200px;
+    background-color: rgba(255, 255, 255, .8);
 }
 
 #download {
@@ -120,21 +142,23 @@ content {
     background-color: rgb(247, 247, 247);  
 }
 
-#pic1 {
-	padding-left: 200px;
-	-webkit-animation-delay: .5s;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-name: slideoutone;
-	-webkit-animation-fill-mode: forwards;
-}
+@media(min-width: 1500px) {
+	#pic1 {
+		padding-left: 200px;
+		-webkit-animation-delay: .5s;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-name: slideoutone;
+		-webkit-animation-fill-mode: forwards;
+	}
 
 
-#pic3 {
-	padding-left: 200px;
-	-webkit-animation-delay: .5s;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-name: slideoutthree;
-	-webkit-animation-fill-mode: forwards;
+	#pic3 {
+		padding-left: 200px;
+		-webkit-animation-delay: .5s;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-name: slideoutthree;
+		-webkit-animation-fill-mode: forwards;
+	}
 }
 
 #allpictures {
@@ -147,7 +171,7 @@ content {
 		-webkit-animation-delay: .5s;
 	}
 	to {
-		padding-left: 50px;
+		padding-left: 0px;
 	}
 }
 
@@ -157,7 +181,7 @@ content {
       -webkit-animation-delay: .5s;
  	}
 	to {
-		padding-left: 350px;
+		padding-left: 400px;
 	}
 }
 
