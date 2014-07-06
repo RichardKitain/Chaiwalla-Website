@@ -83,26 +83,10 @@ nav img {
 	display: inline;
 }
 
-.sidepictures {
-	position: absolute;
-	top: 142.15625px;
-	z-index: -1;
-	left: 100px;
-	float: left;
-}
-
-#mainpicture {
-	position: absolute;
-	left: 300px;
-	top: 126px;
-	float: left;
-}
-
 #maintext {
 	width: 50%;
 	float: right;
     margin-top: 200px;
-    background-color: rgba(255, 255, 255, .8);
 }
 
 #download {
@@ -142,7 +126,7 @@ content {
     background-color: rgb(247, 247, 247);  
 }
 
-@media(min-width: 1500px) {
+@media(min-width: 1300px) {
 	#pic1 {
 		padding-left: 200px;
 		-webkit-animation-delay: .5s;
@@ -159,6 +143,36 @@ content {
 		-webkit-animation-name: slideoutthree;
 		-webkit-animation-fill-mode: forwards;
 	}
+
+	#mainpicture {
+		position: absolute;
+		left: 300px;
+		top: 126px;
+		float: left;
+	}
+
+	.sidepictures {
+		position: absolute;
+		top: 142.15625px;
+		z-index: -1;
+		left: 100px;
+		float: left;
+	}
+}
+
+@media(max-width: 1300px) {
+	#mainpicture, #pic1, #pic3 {
+		float: left;
+		padding-top: 3.5em;
+		padding-left: 30%;
+	}
+
+	.sidepictures {
+		position: absolute;
+		z-index: -1;
+		float: left;
+		opacity: 0;
+	}
 }
 
 #allpictures {
@@ -171,7 +185,7 @@ content {
 		-webkit-animation-delay: .5s;
 	}
 	to {
-		padding-left: 0px;
+		padding-left: 50px;
 	}
 }
 
@@ -181,7 +195,7 @@ content {
       -webkit-animation-delay: .5s;
  	}
 	to {
-		padding-left: 400px;
+		padding-left: 350px;
 	}
 }
 
