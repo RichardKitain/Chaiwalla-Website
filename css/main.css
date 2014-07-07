@@ -130,11 +130,25 @@ nav img {
 	color: rgb(145, 145, 145);
 }
 
-#teampictures p {
+#teampictures .teamtext p {
 	margin-left: 55px;
 	width: 50%;
 	margin-top: 10px;
 	margin-bottom: 0px;
+}
+
+.richtext {
+	padding-right: 240px;
+	padding-top: 15px;
+	text-align: right;
+}
+
+.richtext p {
+	width: 30%;
+	margin-left: 55px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	float: right;
 }
 
 .ahgor {
@@ -145,13 +159,14 @@ nav img {
 
 .kiechard img {
 	-webkit-border-radius: 79px;
-	float: left;
-	margin-left: 200px;
+	float: right;
+	margin-right: 50px;
 }
 
 .ahgor img {
 	-webkit-border-radius: 79px;
 	float: left;
+	margin-left: 50px;
 }
 
 .teamtext {
