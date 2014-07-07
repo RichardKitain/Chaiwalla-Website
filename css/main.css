@@ -202,6 +202,14 @@ nav img {
 		float: left;
 	}
 
+	#teampictures h2 {
+		color: rgb(255, 108, 60);
+	}
+
+	#teampictures h5 {
+		color: rgb(145, 145, 145);
+	}
+
 	
 }
 
