@@ -61,10 +61,6 @@ nav img {
 	padding-left: 1em;
 }
 
-#topleft {
-
-}
-
 #links {
 	float: right;
 	display: inline;
@@ -103,12 +99,74 @@ nav img {
     margin-right: 2em;
 }
 
+#theteam {
+	font-size: 36pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+#teampictures {
+	width: 100%;
+	height: 450px;
+}
+
+.kiechard {
+	width: 50%; 
+	height: 50%;
+	float: left;
+}
+
+#teampictures h1 {
+	color: rgb(255, 108, 60);
+	margin-left: 55px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#teampictures h4 {
+	margin-left: 55px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: rgb(145, 145, 145);
+}
+
+#teampictures p {
+	margin-left: 55px;
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.ahgor {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.kiechard img {
+	-webkit-border-radius: 79px;
+	float: left;
+	margin-left: 200px;
+}
+
+.ahgor img {
+	-webkit-border-radius: 79px;
+	float: left;
+}
+
+.teamtext {
+	float: left;
+	padding-top: 15px;
+}
+
+
 
 footer {
 	background-color: rgb(232, 232, 232);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    height: auto;
     padding-top: .75em;
     padding-bottom: .75em;
 }
