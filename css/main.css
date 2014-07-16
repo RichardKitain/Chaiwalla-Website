@@ -219,24 +219,24 @@ nav img {
 
 #firstpic {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 161px;
+	left: 130px;
 	z-index: -2;
 	float: left;
 }
 
 #secondpic {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 126px;
+	left: 200px;
 	z-index: -1;
 	float: left;
 }
 
 #thirdpic {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 106px;
+	left: 320px;
 	float: left;
 }
 
