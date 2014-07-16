@@ -99,80 +99,117 @@ nav img {
     margin-right: 2em;
 }
 
-#theteam {
-	font-size: 36pt;
-	font-weight: bold;
-	text-align: center;
+@media (min-width: 1106px) {
+	#theteam {
+		font-size: 36pt;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	#teampictures {
+		width: 100%;
+		height: 450px;
+	}
+
+	.kiechard {
+		width: 50%; 
+		height: 50%;
+		float: left;
+	}
+
+	#teampictures h2 {
+		color: rgb(255, 108, 60);
+		margin-left: 55px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	#teampictures h5 {
+		margin-left: 55px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		color: rgb(145, 145, 145);
+	}
+
+	#teampictures .teamtext p {
+		margin-left: 55px;
+		width: 50%;
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+
+	.richtext {
+		padding-right: 240px;
+		padding-top: 15px;
+		text-align: right;
+	}
+
+	.richtext p {
+		width: 30%;
+		margin-left: 55px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		float: right;
+	}
+
+	.ahgor {
+		width: 50%;
+		height: 50%;
+		float: left;
+	}
+
+	.kiechard img {
+		-webkit-border-radius: 79px;
+		float: right;
+		margin-right: 50px;
+	}
+
+	.ahgor img {
+		-webkit-border-radius: 79px;
+		float: left;
+		margin-left: 50px;
+	}
+
+	.teamtext {
+		float: left;
+		padding-top: 15px;
+		width: 45%;
+	}
 }
 
-#teampictures {
-	width: 100%;
-	height: 450px;
-}
+@media (max-width: 1106px) {
+	#theteam {
+		font-size: 36pt;
+		font-weight: bold;
+		text-align: center;
+	}
 
-.kiechard {
-	width: 50%; 
-	height: 50%;
-	float: left;
-}
+	#teampictures {
+		width: 100%;
+		height: 450px;
+		text-align: center;
+		padding-bottom: 700px;
 
-#teampictures h2 {
-	color: rgb(255, 108, 60);
-	margin-left: 55px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
+	}
 
-#teampictures h5 {
-	margin-left: 55px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	color: rgb(130, 130, 130);
-}
+	#teampictures img {
+		-webkit-border-radius: 79px;
+	}
 
-#teampictures .teamtext p {
-	margin-left: 55px;
-	width: 50%;
-	margin-top: 10px;
-	margin-bottom: 0px;
-}
+	.mobileteam {
+		width: 100%; 
+		height: 25%;
+		float: left;
+	}
 
-.richtext {
-	padding-right: 240px;
-	padding-top: 15px;
-	text-align: right;
-}
+	#teampictures h2 {
+		color: rgb(255, 108, 60);
+	}
 
-.richtext p {
-	width: 30%;
-	margin-left: 55px;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	float: right;
-}
-
-.ahgor {
-	width: 50%;
-	height: 50%;
-	float: left;
-}
-
-.kiechard img {
-	-webkit-border-radius: 79px;
-	float: right;
-	margin-right: 50px;
-}
-
-.ahgor img {
-	-webkit-border-radius: 79px;
-	float: left;
-	margin-left: 50px;
-}
-
-.teamtext {
-	float: left;
-	padding-top: 15px;
-	width: 45%;
+	#teampictures h5 {
+		color: rgb(145, 145, 145);
+	}
+	
 }
 
 
