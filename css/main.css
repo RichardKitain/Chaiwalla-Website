@@ -127,7 +127,7 @@ nav img {
 	margin-left: 55px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: rgb(145, 145, 145);
+	color: rgb(130, 130, 130);
 }
 
 #teampictures .teamtext p {
@@ -174,6 +174,60 @@ nav img {
 	padding-top: 15px;
 	width: 45%;
 }
+
+
+#aboutuspictures {
+	width: 50%;
+}
+
+#firstpic {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -2;
+	float: left;
+}
+
+#secondpic {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	float: left;
+}
+
+#thirdpic {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	float: left;
+}
+
+#aboutustext {
+	float: right;
+	width: 50%;
+}
+
+#aboutustext h1 {
+	display: block;
+	font-size: 30pt;
+}
+
+
+#aboutustext p {
+	float: left;
+	color: rgb(130, 130, 130);
+	width: 85%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
